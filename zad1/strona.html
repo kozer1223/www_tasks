@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Tytuł strony</title>
+  <style>
+.container {
+  margin: 1em auto 0 auto;
+  width: 95%;
+  max-width: 960px;
+  background: #f0f6ff;
+  padding: 0 0.5em 0.5em 0.5em;
+  position: relative;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+.blackbox {
+  background-color: black;
+  color: white;
+  margin: 0.5em;
+  padding: 0.5em;
+  font-size: 3.25em;
+}
+
+.orangebox {
+  background-color: orange;
+  color: black;
+  margin: 0.5em;
+  padding: 0.5em;
+  font-size: 2.25em;
+}
+
+.addressbox {
+  background-color: black;
+  color: white;
+  margin: 0.5em;
+  padding: 0.5em;
+  font-size: 2.25em;
+}
+
+ol, ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
+}
+
+h1 {
+  font-size: 3.25em;
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+}
+
+h2 {
+  font-size: 2.25em;
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Jan Kowalski</h1>
+    <div class="row">
+        <div class="column">
+          <h2>Co robię?</h2>
+          <div class="blackbox">
+            Jestem studentem Informatyki WPPT
+          </div>
+        </div>
+        <div class="column">
+          <h2>Co lubię?</h2>
+          <div class="orangebox">
+            <ul>
+              <li>programować</li>
+              <li>czytać</li>
+              <li>placki (z jabłkami)</li>
+              <li>czwarty punkt</li>
+            </ul>
+          </div>
+        </div>
+    </div>
+
+    <h2>Adres:</h2>
+    <div class="addressbox">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum, leo a commodo efficitur, dui augue consequat mi, nec interdum neque turpis vel neque.
+  </div>
+</div>
+</body>
+</html>
